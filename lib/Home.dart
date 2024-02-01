@@ -56,7 +56,7 @@ Widget _buildbody() {
 
 Image _buildmageheader() {
   return Image.asset(
-    'assets/images/pig.jpg',
+    'assets/images/Liew.jpg',
     fit: BoxFit.cover,
   );
 }
@@ -151,15 +151,15 @@ Row _buildJournalFooterImages() {
     crossAxisAlignment: CrossAxisAlignment.start,
     children: <Widget>[
       CircleAvatar(
-        backgroundImage: AssetImage('assets/images/pig.jpg'),
+        backgroundImage: AssetImage('assets/images/Liew.jpg'),
         radius: 40.0,
       ),
       CircleAvatar(
-        backgroundImage: AssetImage('assets/images/xiaogou.jpg'),
+        backgroundImage: AssetImage('assets/images/ling.jpg'),
         radius: 40.0,
       ),
       CircleAvatar(
-        backgroundImage: AssetImage('assets/images/xiaomao.jpg'),
+        backgroundImage: AssetImage('assets/images/mar.jpg'),
         radius: 40.0,
       ),
       SizedBox(
